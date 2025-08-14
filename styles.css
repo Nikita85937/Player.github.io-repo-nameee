@@ -1,0 +1,32 @@
+/* Базовый стиль */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+/* Цвета для соцсетей */
+.youtube { background: #FF0000; color: white; }
+.telegram { background: #0088cc; color: white; }
+.vk { background: #4a76a8; color: white; }
+
+/* Эффекты при наведении */
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.share-container {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@media (max-width: 600px) {
+    .share-container {
+        width: 95%;
+    }
+}
