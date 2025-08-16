@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Гейминг Анимации </title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 900px;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 1.5s ease;
+        }
+        
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #ff4d4d, #f9cb28);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .tagline {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+            color: #ddd;
+            font-weight: 300;
+        }
+        
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #ccc;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            margin: 10px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            color: white;
+            border: 2px solid #ff416c;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 20px rgba(255, 65, 108, 0.4);
+        }
+        
+        .btn-youtube {
+            background: linear-gradient(45deg, #ff0000, #cc0000);
+            color: white;
+            border: 2px solid #ff0000;
+        }
+        
+        .btn-youtube:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 20px rgba(255, 0, 0, 0.4);
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+        
+        .feature {
+            flex: 1;
+            min-width: 200px;
+            margin: 15px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        
+        .feature:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.15);
+        }
+        
+        .feature-icon {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            color: #ff4d4d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" alt="YouTube Logo" class="logo">
+        <h1>Player66654</h1>
+        <div class="tagline">Гейминг Анимации</div>
+        
+        <p>
+            Приветствую на моём официальном сайте! Я создаю контент о играх и
+            Анимациях. Подписывайся на канал, чтобы 
+            не пропустить новые видео, стримы и эксклюзивные материалы!
+
+        <div class="action-buttons">
+            <a href="https://www.youtube.com/@Player66654" class="btn btn-youtube" target="_blank">
+                Перейти на YouTube
+            </a>
+            <a href="https://t.me/Nikita687" class="btn btn-primary" target="_blank">
+        Узнать больше (Telegram)
+        <a href="https://t.me/Player_543" ... >Написать в чат</a>
+        <a href="https://www.donationalerts.com/r/nikitos98765" class="btn btn-donate" target="_blank">
+    <span style="margin-right: 8px;">💎</span> Поддержать
+</a>
+    </a>
+</div>
+</body>
+</html>
+<style>
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+</style>
+<!-- Поделиться -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кнопка Поделиться</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+        
+        .share-container {
+            display: flex;
+            width: 80%;
+            max-width: 500px;
+        }
+        
+        .share-btn {
+            padding: 12px 24px;
+            background-color: #4285f4;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s;
+            margin-right: auto; /* Это сдвигает кнопку влево */
+        }
+        
+        .share-btn:hover {
+            background-color: #3367d6;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .share-icon {
+            margin-right: 8px;
+            font-size: 18px;
+        }
+    </style>
+    <!-- Подключаем иконки -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="share-container">
+        <button class="share-btn" onclick="shareContent()">
+            <i class="fas fa-share-alt share-icon"></i>
+            Поделиться
+        </button>
+    </div>
+
+    <script>
+        function shareContent() {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Посмотрите этот сайт',
+                    text: 'Я нашел интересный сайт',
+                    url: window.location.href
+                })
+                .catch(error => console.log('Ошибка при использовании Share API:', error));
+            } else {
+                // Fallback для браузеров без поддержки Share API
+                alert('Функция "Поделиться" доступна в современных браузерах на мобильных устройствах');
+            }
+        }
+    </script>
+</body>
+</html>
+<h1> Демонстрация видео</h1> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qhaw4TFY0V8?si=HCj6fYVZkEJb68R6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h2>Здесь будут другие авторы каналов которыми я вдохновляюсь</h2>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Убираем подчеркивание у всех ссылок */
+        a {
+            text-decoration: none;
+        }
+
+        /* Общие стили аватарок */
+        .youtube-avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 3px solid transparent;
+        }
+
+        /* Фиолетовые эффекты при наведении */
+        .avatar-purple:hover {
+            border-color: #8A2BE2;
+            box-shadow: 0 0 20px rgba(138, 43, 226, 0.7);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- Ссылка с аватаркой (теперь без подчеркивания) -->
+    <a href="https://www.youtube.com/@FUNMUSICTIMER" target="_blank">
+        <img src="Avatar1.jpg" class="youtube-avatar avatar-purple">
+    </a>
+</body>
+</html>
+<p class='one'>Нажмите на аватарку.</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мои аватарки</title>
+    <style>
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 20px;
+            border: 3px solid #8A2BE2;
+        }
+    </style>
+</head>
+
+
+
+
+
+
+
+
+
